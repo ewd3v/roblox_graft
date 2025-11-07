@@ -4,3 +4,9 @@
 
 # Multitarget build output
 dist*
+
+# Rojo sourcemap
+sourcemap.json
+
+# Roblox type definitions
+types/globalTypes.d.luau

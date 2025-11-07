@@ -1,6 +1,3 @@
-local hello = require("@pkg/hello")
-hello()
+local Graft = require("@pkg/graft")
 
-return {
-	value = "Hi from " .. _G.RUNTIME,
-}
+return Graft

@@ -15,5 +15,11 @@
   "files.eol": "\n",
   "luau-lsp.types.definitionFiles": ["./types/darklua.d.luau"],
   "luau-lsp.completion.imports.ignoreGlobs": ["types/**", "**/.pesde/**"],
-  "luau-lsp.ignoreGlobs": ["types/**", "**/.pesde/**"]
+  "luau-lsp.ignoreGlobs": ["types/**", "**/.pesde/**"],
+  "luau-lsp.platform.type": "roblox",
+  "luau-lsp.sourcemap.enabled": true,
+  "luau-lsp.sourcemap.generatorCommand": "",
+  "luau-lsp.sourcemap.autogenerate": true,
+  "luau-lsp.sourcemap.rojoProjectFile": "test.project.json",
+  "luau-lsp.sourcemap.sourcemapFile": "sourcemap.json"
 }

@@ -1,4 +1,4 @@
-std = "luau"
+std = "luau+roblox"
 exclude = ["*_packages/*", ".pesde/*", "dist*/*", "types/*"]
 
 [config]

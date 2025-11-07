@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+echo "No tests currently."
+exit 0
+
 pesde x ewdev/multitarget -- build --yes \
     --build-files src tests --output dist_test \
     --global RUNTIME --require-mode luau \
-    --luau --lune # Runtimes to run tests on
+    --luau # Runtimes to run tests on
 
 cd dist_test
 

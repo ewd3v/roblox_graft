@@ -7,7 +7,7 @@
   "typeErrors": true,
   "globals": [],
   "aliases": {
-    "pkg": "./luau_packages",
+    "pkg": "./roblox_packages",
     "luau_pkg": "./luau_packages"
   }
 }
