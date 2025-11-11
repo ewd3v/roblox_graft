@@ -2,8 +2,8 @@
 *_packages
 .pesde
 
-# Multitarget build output
-dist*
+# Build output
+out
 
 # Rojo sourcemap
 sourcemap.json

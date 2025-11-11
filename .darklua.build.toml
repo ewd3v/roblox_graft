@@ -1,0 +1,21 @@
+input = "src"
+output = "out"
+
+[options]
+include = [
+    ".darklua.json5",
+    ".luaurc",
+    "pesde.toml",
+    "pesde.lock",
+    "*.project.json",
+    "sourcemap.json",
+]
+darklua_config = ".darklua.json5"
+temp_dir_keep = false
+temp_dir_location = "." # Makes pesde cli tools work
+
+[options.scripts]
+preProcess = [
+    "pesde install",
+    "rojo sourcemap test.project.json -o sourcemap.json",
+]
