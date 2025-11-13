@@ -33,4 +33,4 @@ rojo = { name = "pesde/rojo", version = "^7.6.1", target = "lune" }
 scripts_rojo = { name = "pesde/scripts_rojo", version = "^0.2.0", target = "lune" }
 
 [dependencies]
-graft = { name = "ewdev/graft", version = "=0.1.1" }
+graft = { name = "ewdev/graft", version = "=0.1.3" }
