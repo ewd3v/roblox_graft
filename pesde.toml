@@ -7,9 +7,10 @@ license = "MIT"
 includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
 private = true # Prevent publishing non-built files, use the build script to generate a dist folder with the package to publish
 
+workspace_members = ["plugin/bin"]
+
 [engines]
 pesde = "^0.7.1"
-lune = "^0.10.4" # Required for build script even though we're running it via `pesde x`, check https://github.com/pesde-pkg/pesde/issues/51
 
 [target]
 environment = "roblox"

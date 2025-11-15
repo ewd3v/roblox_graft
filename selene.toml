@@ -2,4 +2,4 @@ std = "luau+roblox"
 exclude = ["*_packages/*", ".pesde/*", "dist*/*", "types/*"]
 
 [config]
-global_usage = { ignore_pattern = "^RUNTIME$" } # Ignore the global value that will be injected by darklua
+global_usage = { ignore_pattern = "^PESDE_ROOT$" } # Ignore the global value that will be injected by darklua

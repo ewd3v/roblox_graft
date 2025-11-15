@@ -7,7 +7,7 @@ local toolbar = plugin:CreateToolbar("Graft")
 
 local activateButton = toolbar:CreateButton(
 	"Graft",
-	"Toggles whether if Graft should be activated or not when running game",
+	"Toggles whether if Graft should be activated or not when running the game",
 	"rbxassetid://14978048121"
 )
 activateButton.Enabled = isEdit

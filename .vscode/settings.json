@@ -13,7 +13,7 @@
     "dist*/**": true
   },
   "files.eol": "\n",
-  "luau-lsp.types.definitionFiles": ["./types/darklua.d.luau"],
+  "luau-lsp.types.definitionFiles": ["./types/pesde.d.luau"],
   "luau-lsp.completion.imports.ignoreGlobs": ["types/**", "**/.pesde/**"],
   "luau-lsp.ignoreGlobs": ["types/**", "**/.pesde/**"],
   "luau-lsp.platform.type": "roblox",

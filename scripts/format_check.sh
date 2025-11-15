@@ -2,4 +2,4 @@
 set -euo pipefail
 
 stylua --check \
-    src tests
+    src plugin tests

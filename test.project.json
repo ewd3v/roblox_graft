@@ -14,7 +14,7 @@
       },
 
       "plugin": {
-        "$path": "plugin"
+        "$path": "plugin/src"
       }
     }
   }

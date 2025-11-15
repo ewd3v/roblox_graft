@@ -5,6 +5,9 @@ name = "ewdev/graft_roblox"
 version = "0.0.0"
 target = "roblox"
 
+[workspace."ewdev/graft_roblox_plugin"]
+lune = "plugin/bin"
+
 [graph."0x5eal/unzip@0.2.0 luau".pkg_ref]
 ref_ty = "pesde"
 index_url = "https://github.com/pesde-pkg/index"

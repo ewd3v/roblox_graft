@@ -1,0 +1,25 @@
+name = "ewdev/graft_roblox_plugin"
+version = "0.0.0" # Don't touch this, is handled by build script
+description = "CLI to manage the Roblox Graft plugin"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/roblox_graft/blob/main/plugin/bin"
+license = "MIT"
+includes = ["src/**", "pesde.toml", "LICENSE", "README.md", ".luaurc", "plugin.rbxm"]
+private = true # Prevent publishing non-built files, use the build script to generate a dist folder with the package to publish
+
+[engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+[target]
+environment = "lune"
+bin = "src/init.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+dirs = { name = "jiwonz/dirs", version = "^0.6.0" }
+argparse = { name = "caveful_games/argparse", version = "^0.1.2" }
+pathfs = { name = "jiwonz/pathfs", version = "^0.6.0" }
+chalk = { name = "kimpure/chalk_luau", version = "^0.1.8" }
