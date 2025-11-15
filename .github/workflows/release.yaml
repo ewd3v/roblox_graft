@@ -44,6 +44,9 @@ jobs:
         with:
           pesde_token: ${{ secrets.PESDE_TOKEN || github.token }}
 
+      - name: Build package
+        run: ./scripts/build.sh
+
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
@@ -51,9 +54,6 @@ jobs:
           default_author: github_actions
           tag: ${{ github.ref_name }} --force
           tag_push: --force
-
-      - name: Build package
-        run: ./scripts/build.sh
 
       - name: Read changelog
         id: read_changelog

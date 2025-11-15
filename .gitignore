@@ -4,7 +4,7 @@
 
 # Build output
 out
-plugin/out
+darklua_build_*
 
 # Rojo sourcemap
 sourcemap.json
