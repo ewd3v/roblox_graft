@@ -7,9 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.0] - 2025-11-15
-
 - Initial release
-
-[unreleased]: https://github.com/ewd3v/roblox_graft/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/ewd3v/roblox_graft/compare/758dd65cc3be51bf0f3a7174f97a5f3276af962b...v0.1.0
