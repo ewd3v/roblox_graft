@@ -4,6 +4,7 @@
 
 # Build output
 out
+plugin/out
 
 # Rojo sourcemap
 sourcemap.json

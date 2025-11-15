@@ -155,7 +155,7 @@ local function getBytecodeWrapperForModule(module: Module): (() -> buffer, RBXSc
 
 		local algorithm = tonumber(moduleData:GetAttribute("CompressionAlgorithm")) or 0
 		return EncodingService:DecompressBuffer(
-			buffer.fromstring(value),
+			EncodingService:Base64Decode(buffer.fromstring(value)),
 			-- selene: allow(incorrect_standard_library_use) -- Check: https://github.com/Kampfkarren/selene/issues/619
 			Enum.CompressionAlgorithm:FromValue(algorithm)
 		)

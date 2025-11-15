@@ -10,6 +10,7 @@ include = [
     "roblox_packages/**/*",
     "*.project.json",
     "sourcemap.json",
+    "plugin/**/*",
 ]
 darklua_config = ".darklua.json5"
 temp_dir_keep = false

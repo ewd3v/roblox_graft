@@ -1,0 +1,10 @@
+{
+  "name": "Graft Plugin",
+  "tree": {
+    "$className": "Folder",
+
+    "plugin": {
+      "$path": "plugin"
+    }
+  }
+}

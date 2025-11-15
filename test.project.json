@@ -11,6 +11,10 @@
         "roblox_packages": {
           "$path": "roblox_packages"
         }
+      },
+
+      "plugin": {
+        "$path": "plugin"
       }
     }
   }
