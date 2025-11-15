@@ -11,6 +11,7 @@ workspace_members = ["plugin/bin"]
 
 [engines]
 pesde = "^0.7.1"
+lune = "^0.10.4"
 
 [target]
 environment = "roblox"
