@@ -6,6 +6,7 @@ lune setup
 cd ../..
 
 rojo sourcemap test.project.json -o sourcemap.json
+rojo sourcemap plugin/plugin/default.project.json -o plugin/plugin/sourcemap.json
 
 selene \
     --no-summary \

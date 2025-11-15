@@ -1,3 +1,5 @@
+local package = require(script.Parent["pesde.toml"])
+
 local isEdit = game:GetService("RunService"):IsEdit()
 
 local ACTIVATED_SETTING = "Activated"
@@ -24,5 +26,5 @@ activateButton.Click:Connect(function()
 end)
 
 if not isEdit then
-	require("@self/runtime")(activated)
+	require("@self/runtime")(package, activated)
 end

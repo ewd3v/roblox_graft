@@ -1,0 +1,11 @@
+{
+  "languageMode": "strict",
+  "lint": {
+    "*": true,
+    "DeprecatedApi": false
+  },
+  "lintErrors": true,
+  "typeErrors": true,
+  "globals": [],
+  "aliases": {}
+}

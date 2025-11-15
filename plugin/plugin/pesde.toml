@@ -1,0 +1,16 @@
+name = "ewdev/graft_roblox_plugin"
+version = "0.0.0"
+license = "MIT"
+includes = ["src/**", "pesde.toml"]
+private = true                      # Not actually meant to be published
+
+[engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+[target]
+environment = "roblox"
+lib = "src/init.server.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"

@@ -2,19 +2,26 @@
   "name": "Graft Test Place",
   "tree": {
     "$className": "DataModel",
+
     "ReplicatedStorage": {
       "package": {
         "$className": "Folder",
+
         "src": {
           "$path": "src"
         },
+
+        "pesde.toml": {
+          "$path": "pesde.toml"
+        },
+
         "roblox_packages": {
           "$path": "roblox_packages"
         }
       },
 
       "plugin": {
-        "$path": "plugin/src"
+        "$path": "plugin/plugin"
       }
     }
   }

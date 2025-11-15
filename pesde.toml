@@ -7,7 +7,7 @@ license = "MIT"
 includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
 private = true # Prevent publishing non-built files, use the build script to generate a dist folder with the package to publish
 
-workspace_members = ["plugin/bin"]
+workspace_members = ["plugin/*"]
 
 [engines]
 pesde = "^0.7.1"
@@ -16,7 +16,7 @@ lune = "^0.10.4"
 [target]
 environment = "roblox"
 lib = "src/init.luau"
-build_files = ["src"]
+build_files = ["src", "pesde.toml"]
 
 [indices]
 default = "https://github.com/pesde-pkg/index"

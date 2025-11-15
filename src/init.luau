@@ -1,3 +1,5 @@
+local package = require(script.Parent["pesde.toml"])
+
 local EncodingService = game:GetService("EncodingService")
 local RunService = game:GetService("RunService")
 local ServerStorage = game:GetService("ServerStorage")
@@ -16,6 +18,11 @@ elseif graftData:GetAttribute("Activated") ~= true then
 else
 	print("[Graft] Can graft")
 	canGraft = true
+
+	local pluginVersion = tostring(graftData:GetAttribute("Version") or "unknown")
+	if package.version ~= pluginVersion then
+		warn(`[Graft] Plugin is running on a different version (package: {package.version}, plugin: {pluginVersion})`)
+	end
 end
 
 --[=[

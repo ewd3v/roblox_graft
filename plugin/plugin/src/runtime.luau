@@ -28,10 +28,11 @@ local function handleModule(objectValue: ObjectValue | Instance)
 	updateBytecode()
 end
 
-return function(activated: boolean)
+return function(package: { version: string }, activated: boolean)
 	local scriptData = Instance.new("Folder")
 	scriptData.Archivable = false
 	scriptData.Name = "__Graft"
+	scriptData:SetAttribute("Version", package.version)
 	scriptData:SetAttribute("Activated", activated)
 	scriptData.DescendantAdded:Connect(handleModule)
 	scriptData.Parent = ServerStorage
