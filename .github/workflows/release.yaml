@@ -90,5 +90,5 @@ jobs:
 
       - name: Publish package to pesde
         run: |
-          cd dist
+          cd out
           pesde publish --yes
