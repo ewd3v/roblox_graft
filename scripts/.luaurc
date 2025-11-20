@@ -1,0 +1,14 @@
+{
+  "languageMode": "strict",
+  "lint": {
+    "*": true
+  },
+  "lintErrors": true,
+  "typeErrors": true,
+  "globals": [],
+  "aliases": {
+    "pkg": "../lune_packages",
+    "luau_pkg": "../luau_packages",
+    "lune": "~/.lune/.typedefs/0.10.4/"
+  }
+}

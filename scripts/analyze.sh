@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd plugin/bin
+cd scripts
 lune setup
-cd ../..
+cd ..
 
 rojo sourcemap test.project.json -o sourcemap.json
 rojo sourcemap plugin/plugin/default.project.json -o plugin/plugin/sourcemap.json

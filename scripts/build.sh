@@ -9,7 +9,7 @@ cd out
 curl -L https://github.com/RadiatedExodus/LuauCeption/releases/download/0.654/Luau.LuauCeption.Compiler.0.654.luau > plugin/plugin/src/luau.luau
 
 sed -i -e \
-    "s/version = \"0.0.0\"/$(grep -P "^version = \".+\"$" pesde.toml)/" \
+    "s/version = \"0.0.0\"/version = \"$(lune run ../scripts/getPackageVersion)\"/" \
     plugin/bin/pesde.toml plugin/plugin/pesde.toml
 
 cd .. # Back to top dir as we can't use rojo within out dir # TODO: <-- Fix
