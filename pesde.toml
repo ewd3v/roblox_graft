@@ -1,5 +1,5 @@
 name = "ewdev/graft_roblox"
-version = "0.0.0"
+version = "0.1.0"
 description = "Hot reloading for Roblox"
 authors = ["EwDev (https://ewdev.net/)"]
 repository = "https://github.com/ewd3v/roblox_graft"
